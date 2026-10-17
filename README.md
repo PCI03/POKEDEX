@@ -1,4 +1,26 @@
-# Pokédex · Cuaderno de campo — v0.1.0
+# Actualización v0.2.0 — Solo la Pokédex
+
+Interfaz móvil sin cabecera, eslogan ni pie exterior. Carcasa roja hasta los bordes, pantallas Pokémon / Datos / Colección y controles de copia de seguridad bajo SISTEMA. En ordenador se conservan los dos paneles. Voz sintetizada más grave y pausada (desactivable); no es la voz original de la serie. El resultado depende de las voces instaladas y del navegador. El botón de audio inicia/detiene la narración; cambiar de Pokémon la detiene.
+
+## Actualizar tu GitHub actual (PCI03/Pokedex)
+
+1. Extrae el ZIP.
+2. En el repositorio, usa Add file → Upload files.
+3. Arrastra la carpeta `dist` de esta entrega a la raíz y confirma la subida. Acepta actualizar `dist/index.html`.
+4. Espera a que termine el despliegue de GitHub Pages.
+5. Abre https://pci03.github.io/Pokedex/dist/ y recarga. En SISTEMA debe figurar v0.2.0.
+
+Para mantener el código fuente al día, sube también `src`, `public`, `package.json`, `package-lock.json` e `index.html` a la raíz. No cambies la configuración de Pages si actualmente publicas desde la rama main y la raíz: el enlace sigue siendo `/Pokedex/dist/`. Los archivos antiguos de assets pueden permanecer; el nuevo index apunta a los nuevos.
+
+El registro usa la misma clave local y se conserva al actualizar en el mismo navegador y URL de origen. Por precaución, exporta el progreso antes de actualizar.
+
+En iPhone, Compartir → Añadir a pantalla de inicio permite abrirla sin la barra habitual de Safari. Dentro de una pestaña normal, la app no puede ocultar permanentemente los controles del navegador. No se ha implementado funcionamiento offline.
+
+Validación de esta entrega: compilación TypeScript/Vite y cuatro pruebas automáticas. Sin validación visual en navegador ni de la voz/cámara en un teléfono real en este entorno.
+
+---
+
+# Pokédex · Cuaderno de campo — v0.2.0
 
 Primera versión independiente de CardEX y PCI Stock. TypeScript + React + Vite, interfaz española inspirada en una Pokédex roja de dos paneles. Compatible con alojamiento estático bajo subcarpetas en GitHub Pages.
 
